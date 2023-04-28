@@ -1,5 +1,6 @@
 body{
     background-color: rgb(1, 1, 50);
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 h1{
     color: rgb(51, 6, 163);
@@ -20,6 +21,20 @@ padding-bottom: 1%;
 padding-bottom: 1%;
 
 }
+
+p{
+    line-height: normal;
+
+}
+
+ul{
+
+line-height: 1.5;
+font-size: 1em;
+color:  rgb(255, 255, 255);
+
+}
+
 article{
     color: rgb(255, 255, 255);
 }
