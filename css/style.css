@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgb(1, 1, 50);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -65,7 +69,7 @@ footer{
 }
 
 .banner{
-    width: 100%;
+    width: 90%;
 }
 
 .container{
@@ -77,5 +81,12 @@ figure{
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.teste{
+
+    float: left;
+    width:20%;
+    margin-right: 4%;
 }
 
