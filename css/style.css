@@ -15,8 +15,8 @@ h1{
 
 h2{
 
-    padding-bottom: 1%;
-    padding-bottom: 1%;
+    padding-top: 1cm;
+    padding-bottom: 2CM;
     color:  rgb(255, 255, 255);
 }
 
@@ -37,6 +37,7 @@ ul{
 line-height: 1.5;
 font-size: 1em;
 color:  rgb(255, 255, 255);
+padding-bottom: 2CM;
 
 }
 
@@ -88,5 +89,19 @@ figure{
     float: left;
     width:20%;
     margin-right: 4%;
+}
+
+
+.linha{
+
+display: flex;
+flex-flow: row wrap;
+text-align: center;
+
+}
+
+.col-6{ 
+    width: 50%;
+
 }
 
