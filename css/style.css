@@ -3,9 +3,9 @@ html{
 }
 
 body{
-    background-color: rgb(1, 1, 50);
+    background-image: linear-gradient( rgb(1, 1, 50), rgb(4, 4, 123), rgb(120, 8, 120));
     font-family:Georgia, 'Times New Roman', Times, serif;
-
+    
 }
 h1{
     color: rgb(47, 4, 156);
@@ -23,7 +23,7 @@ h2{
     padding-bottom: 1CM;
     font-size: 2em;
     color: rgb(86, 13, 221);
-     -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
     text-shadow: 1px rgb(255, 255, 255);
 }
 
@@ -54,8 +54,13 @@ article{
 }
 
 header{
+
     width: 100%;
-    padding: 3%;
+    height: -5% ;
+    font-size: 10px;
+    background-image: linear-gradient( rgb(120, 8, 120), rgb(3, 3, 97));
+    border: none;
+
 }
 
 .logo{
@@ -73,18 +78,22 @@ nav{
 }
 
 footer{
-    width: 100%;
+    width: 90%;
     color: rgb(51, 6, 163); 
 }
 
 .banner{
-    width: 90%;
+    width: 99%;
+    height: -5%;
+    box-shadow: none;
 }
 
 .container{
     width: 80%;
     margin: auto;
-    
+    border: 1px solid white;
+    padding-left: 5%;
+    background-color: rgb(1, 1, 50);
 }
 
 figure{
@@ -96,7 +105,7 @@ figure{
 .teste{
 
     float: left;
-    width:20%;
+    width:23%;
     margin-right: 4%;
 }
 
@@ -114,44 +123,62 @@ text-align: center;
 
 }
 
-.banana{
-
-padding-top: 5%;
-padding-bottom: 1%;
-
-}
-
-.ovo{
-padding-bottom: 5% ;
-}
-
-.hidra{
-padding-bottom: 5%;
-
-}
-
-.cancer{
-
-padding-bottom: 3%;
-padding-top: 3%;
-
-}
-
 img{
 
 
-box-shadow: 5px 10px white ;
+box-shadow: 5px 10px rgb(143, 12, 175) ;
 border: 1px solid white;
 
 }
 
+a{
 
+    -webkit-text-stroke: 1px white;
+}
 
-header{
+#As12Constelacoes{
 
-    border: 1px solid white;
-    background-image: linear-gradient( rgb(120, 8, 120), rgb(4, 4, 123), rgb(1, 1, 50));
+padding-bottom: 12%;
 
 
 }
+
+
+#Constelacaodesagitario{
+
+padding-bottom: 10%;
+
+}
+
+#Constelacaodecancer{
+
+padding-bottom: 10%;
+
+}
+
+#ConstelacaodeEscorpiao{
+
+padding-bottom: 10%;
+
+}
+
+
+#Constelacaodevirgo{ 
+
+padding-bottom: 15%;
+
+
+}
+
+#ConstelacaodeHydra{
+
+padding-bottom: 10%;
+
+
+}
+
+
+
+
+
 
