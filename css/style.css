@@ -220,6 +220,11 @@ table, th, td {
 
   }
 
+  .lista{
+
+    list-style-image: url('../img/saturno\ \(1\).png');
+
+  }
 
 
 
