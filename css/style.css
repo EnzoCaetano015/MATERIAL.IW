@@ -69,6 +69,14 @@ header{
     font-size: 1.5em;
     padding-top: 1%;
     padding-bottom: 1%;
+    
+}
+.logosite{
+
+    text-align: center;
+    width: 30%;
+    box-shadow: none;
+    border: none
 }
 
 nav{
