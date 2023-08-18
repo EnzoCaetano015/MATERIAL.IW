@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postions</title>
+
+    <style>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+        h1{
+            background-color: rgb(31, 51, 227);
+        }
+        p{
+            background-color: rgb(23, 156, 228);
+        }
+
+        .link{
+            padding-top: 15px;
+            text-align: center;
+        }
+
+        .meio{
+            position: fixed;
+            width: 100%;
+            z-index: 1030;
+            top:0;
+            color: fuchsia;
+        }
+
+        .cabe{
+            width: 100%;
+            position: relative;
+            top: 60px;
+        }      
+
+        .container{
+            width: 100%;
+            height: 1220px;
+            top:60px;
+            position: relative;
+            background-color: rgb(255, 255, 255);
+        }     
+        
+        .tdireita{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(93, 222, 38);
+            right: 16px;
+            top: 50px;
+
+        }
+
+        .tesquerda{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(255, 135, 7);
+            left: 16px;
+            top: 50px;
+
+        }
+
+        .besquerda{
+            position: absolute;
+            width: 20%;
+            background-color: rgb(147, 229, 15);
+            bottom: 10px;
+            left: 16px;
+
+
+        }
+        .bdireita{
+            position: absolute;
+            width: 20%;
+            background-color:cornflowerblue;
+            bottom: 10px;
+            right: 16px;
+
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="fixo" style="text-align: center;color: darkblue; font-weight: bold;" >CSS Interno e Inline</h1>
+        <div class="cabe">
+            <p style="border-color: blue; border-style: groove; color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis molestiae quod aperiam odit cum beatae aliquam ducimus! Quia molestiae dicta optio debitis quod ex omnis dolorum dolore soluta aut?</p>
+            <p style="border-color: blue; border-style: groove; color: blueviolet;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex esse rerum dolorum debitis minima quam, quaerat in illum dolorem qui deserunt voluptatum ad. Perspiciatis veniam corporis explicabo inventore magnam debitis.</p>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1>Teste...</h1>
+            <div class="tdireita">topo direita</div>
+            <div class="tesquerda">topo esquerda</div>
+            <div class="bdireita">baixo direita</div>
+            <div class="besquerda">baixo esquerda</div>
+            <div class="meio">meio</div>
+        </div>
+
+    </div>
+    
+    <a href="index.html"> <div> <p class="link">HOME</p> </div> </a>
+ 
+        
+   
+</body>
+</html>
