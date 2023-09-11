@@ -4,38 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Postions</title>
-
+    <title>CSS Interno e Inline </title>
     <style>
         body{
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(121, 92, 49);
         }
         h1{
-            background-color: rgb(31, 51, 227);
+            background-color: rgb(5, 111, 204);
         }
         p{
-            background-color: rgb(23, 156, 228);
+            background-color: rgb(128, 25, 109);
         }
-
-        .link{
+        /* div{
+            width: 100px;
+            height: 50px;
+            background-color:cornflowerblue;
+            margin: auto;            
+        } */
+        .botao{
             padding-top: 15px;
             text-align: center;
         }
 
-        .meio{
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            text-align: center;
-            font-size: 18px;
-
-        }
-            /* position: fixed;
+        .fixo{
+            position: fixed;
             width: 100%;
             z-index: 1030;
             top:0;
-            color: fuchsia;
-        } */
+        }
 
         .cabe{
             width: 100%;
@@ -48,40 +44,40 @@
             height: 1220px;
             top:60px;
             position: relative;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(4, 180, 72);
         }     
         
-        .tdireita{
+        .topodir{
             position: absolute;
             width: 20%;
-            background-color: rgb(93, 222, 38);
+            background-color: rgb(50, 22, 190);
             right: 16px;
             top: 50px;
 
         }
 
-        .tesquerda{
+        .topoesq{
             position: absolute;
             width: 20%;
-            background-color: rgb(255, 135, 7);
+            background-color: rgb(202, 202, 21);
             left: 16px;
             top: 50px;
 
         }
 
-        .besquerda{
+        .baixoesq{
             position: absolute;
             width: 20%;
-            background-color: rgb(147, 229, 15);
+            background-color: rgb(179, 20, 78);
             bottom: 10px;
             left: 16px;
 
 
         }
-        .bdireita{
+        .baixodir{
             position: absolute;
             width: 20%;
-            background-color:cornflowerblue;
+            background-color:rgb(200, 47, 113);
             bottom: 10px;
             right: 16px;
 
@@ -90,28 +86,27 @@
 
     </style>
 </head>
-
 <body>
-    <header class="mid">
-        <h1 class="fixo" style="text-align: center;color: darkblue; font-weight: bold;" >CSS Interno e Inline</h1>
+    <header>
+        <h1 class="fixo" style="text-align: center;color: rgb(139, 56, 0); font-weight: bold;" >CSS Interno e Inline</h1>
         <div class="cabe">
-            <p style="border-color: blue; border-style: groove; color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nobis molestiae quod aperiam odit cum beatae aliquam ducimus! Quia molestiae dicta optio debitis quod ex omnis dolorum dolore soluta aut?</p>
-            <p style="border-color: blue; border-style: groove; color: blueviolet;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex esse rerum dolorum debitis minima quam, quaerat in illum dolorem qui deserunt voluptatum ad. Perspiciatis veniam corporis explicabo inventore magnam debitis.</p>
+            <p style="border-color: red; border-style: groove; color: lightcoral;">blabljnbjirtgknhjrtngnjtrkjjhojrthblablablaalshfgdshjighfsgfghuihfeuighuifhugihreuhgtuhreutgilablablabla</p>
+            <p style="border-color: darkred; border-style: groove; color: rgb(219, 130, 29);">ijguiouiouioethjjjjfkgiohjonscfmlvnjjifdhnbvfehngjnfejibhfejibnjvcnvjohfdgheriughibla</p>
         </div>
     </header>
     <div class="main">
         <div class="container">
             <h1>Teste...</h1>
-            <div class="tdireita">topo direita</div>
-            <div class="tesquerda">topo esquerda</div>
-            <div class="bdireita">baixo direita</div>
-            <div class="besquerda">baixo esquerda</div>
-            <div class="meio">meio</div>
+            <div class="topodir">topo direita</div>
+            <div class="topoesq">topo esquerda</div>
+            <div class="baixoesq">baixo esquerda</div>
+            <div class="baixodir">baixo direita</div>
+            <div class="centro">centro</div>
         </div>
 
     </div>
     
-    <a href="index.html"> <div> <p class="link">HOME</p> </div> </a>
+    <a href="index.html"> <div> <p class="botao">inicio</p> </div> </a>
  
         
    
