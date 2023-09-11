@@ -136,13 +136,6 @@ input[type=submit]:hover {
 
 
 
-
-
-
-
-
-
-
 h1{
     color: rgb(47, 4, 156);
     -webkit-text-stroke: 1px rgb(34, 13, 223);
@@ -259,8 +252,9 @@ figure{
 
     float: left;
     width:23%;
-    height: 10%;
+    height: 30%;
     margin-right: 4%;
+    
 }
 
 .banana{
@@ -289,6 +283,7 @@ img{
 
 box-shadow: 5px 10px rgb(143, 12, 175) ;
 border: 1px solid white;
+
 
 }
 
