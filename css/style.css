@@ -7,6 +7,142 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
+
+ /* Menu */
+
+ 
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+.menu1 {
+    float: left;
+  }
+  
+.menu1 a {
+    display: block;
+    
+    text-align: center;
+    padding: 5px 30px;
+    text-decoration: none;
+  }
+
+  
+
+.menu1 {
+    border-right: 1px solid #bbb;
+  }
+  
+.menu1:last-child {
+    border-right: none;
+  }
+
+
+.menu1 a:hover {
+    background-color: #750370;
+    color: rgb(18, 50, 230);
+    
+}
+
+
+/* Responsividade */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Formulario */
+
+form{
+    padding-top: 10%;
+    padding-bottom: 6%;
+}
+
+label {
+    padding: 4%;
+    font-size: 1.2em;
+    display: inline-block;
+    color: rgb(15, 96, 218);
+}
+
+input[type=text], select, textarea, input[type=email], input[type=tel]{
+    width: 90%;
+    padding: 1%;
+    border: 1px solid #c600ee;
+    border-radius: 15px;
+    resize: vertical;
+}
+
+ 
+.col-25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+    margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+  background-color: rgb(15, 96, 218);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+
+}
+
+input[type=submit]:hover {
+  background-color:rgb(15, 96, 218);
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 790px) {
+    .col-25, .col-75, input[type=reclamações] {
+      width: 100%;
+      margin-top: 0;
+    }
+    form{
+        margin-top: 20em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 h1{
     color: rgb(47, 4, 156);
     -webkit-text-stroke: 1px rgb(34, 13, 223);
@@ -85,7 +221,17 @@ nav{
 
 footer{
     width: 90%;
-    color: rgb(51, 6, 163); 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    padding-left: 7%;
+    padding-top: 1%;
+}
+
+.midia{
+    width: 3%;
+    display: inline;
+    padding: 0.5%;
+    box-shadow: none;
 }
 
 .banner{
@@ -226,12 +372,7 @@ table, th, td {
 
   }
 
-  .lista{
-
-    list-style-image: url('../img/planet\(1\).png');
-
-  }
-
+  
 
 
 

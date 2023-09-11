@@ -16,25 +16,84 @@
 		<div class="logo">
 			<p>MENU</p>
 		</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li> 
-					<li><a href="planetas.html">Planetas</a></li>
-					
-				</ul>
-			</nav>
+		<nav>
+			<ul class="menu">
+				<li class="menu1"><a href="index.html">Home</a></li> 
+				<li class="menu1"><a href="Planetas.html">Planetas</a></li> 
+		</nav>
 	</header>
 
 	<figure>
-		<img class="banner" src="img/contato.jpg" alt="imagem banner de planetas panoramicos">  
+		<img class="banner" src="img/satelite.jpg" alt="imagem banner de planetas panoramicos">  
 	</figure>
 
 	<div class="container">
+
+		<h1>Formulário</h1>
+
+		<form action="#">
+			<div class="row">
+				<div class="col-25">
+				  	<label for="nome">Nome completo</label>
+				</div>
+				<div class="col-75">
+				  	<input type="text" id="nome" name="nome" placeholder="Digite o seu nome...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="#">Número de telefone</label>
+				</div>
+				<div class="col-75">
+					<input type="tel" name="telefone" id="telefone" placeholder="(11) 4002-8922">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  	<label for="#">Email</label>
+				</div>
+				<div class="col-75">
+				  	<input type="email" id="email" name="email" placeholder="Digite o seu Email...">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="#">Estado</label>
+				</div>
+				<div class="col-75">
+				  	<select id="estado" name="estado">
+					<option value="SP">SP</option>
+					<option value="RJ">RJ</option>
+					<option value="MG">MG</option>
+					<option value="BA">BA</option>
+					<option value="MS">MS</option>
+				  	</select>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+				  	<label for="#">Reclamações</label>
+				</div>
+				<div class="col-75">
+				  	<textarea id="reclamações" name="reclamações" placeholder="Escreva algo..." style="height:200px"></textarea>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<input type="submit" value="Enviar">
+			</div>
+		</form>
 		
 	</div>
 
 	<footer>
-		<p>Desenvolvido por Enzo Caetano :)</p>
+
+
+		<a href="https://github.com/EnzoCaetano015"><img class="midia" src="img/github.png" alt=""></a>
+    	<a href="https://www.linkedin.com/in/enzo-rodrigues-814736290/"><img class="midia" src="img/linkedin.png" alt=""></a>
+   	 	<a href="https://instagram.com/caetanokskj?igshid=OGQ5ZDc2ODk2ZA=="><img class="midia" src="img/instagram.png" alt=""></a>
+
+		<p>Desenvolvido por Enzo Caetano </p>
 	</footer>
 
 </body>
